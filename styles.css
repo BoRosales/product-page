@@ -1,3 +1,19 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: #7FDBFF;
+}
+
+nav> a{
+    display: block;
+    float: right;
+    list-style: none;
+    padding: 1rem;
+}
 /* Should have at least 1 media query */
 
 /* Should utilize css flexbox at least once */
