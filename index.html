@@ -13,33 +13,55 @@
 <body>
     <!--NavBar should always be at top of viewport-->
     <header id="header">
-        <img id="header-img">
+        <h3 class="title" href="#home">Yo Boi Huesos</h3>
         <nav id="nav-bar">
-            <a class="nav-link">Home</a>
-            <a class="nav-link">Middle</a>
-            <a class="nav-link">End</a>
+            <div class="container">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#contact-us">Contact</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="">
+        <section id="home">
+            <div class="home-container">
+                <div class="items">
+                    <h4>Proven Results</h4>
+                    <p>A top 100 player in the Austin, Tx scene. I've gotten several Top 8's amongst locals and WiFi brackets. Familiar with
+                        a variety of match ups, characters, and stages. Students will notice improvement within 30 days!
+                    </p>
+                </div>
+                <div class="items">
+                    <h4>Practice Sessions</h4>
+                    <p>Practice makes perfect - You'll have access to 30min to 1hr of play time with me a week. During this time we can talk on 
+                        Discord, so I can coach you mid-matches. I'll be available to play whatever character you'd like me to in a variety
+                        of play styles.
+                    </p>
+                </div>
+                <div class="items">
+                    <h4>VOD Review</h4>
+                    <p>Included in the package is VOD review. Submit a video and we can review together via Discord call, or I can review on
+                        my own and send back a detailed document, complete with timestamps of what I am referencing.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Y6YZyda9buY"></iframe>
 
         </section>
 
-        <section id="">
-
-            <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-            
-        </section>
-
-        <section  id="">
+        <section  id="contact-us">
+            <p>If you liked what you've seen so far, don't hesitate to reach out.</p>
             <form id="form">
-                <input id="email" type="text"name="email" placeholder="howdy@gmail.com" pattern="" required>
+                <input id="email" type="text" name="email" placeholder="howdy@gmail.com" pattern="" required>
                 <input type="submit">
             </form>
-            
         </section>
     </main>
-    
+    <footer class="footer"></footer>
 </body>
 </html>

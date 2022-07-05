@@ -4,16 +4,43 @@ body {
 }
 
 header {
-    overflow: hidden;
     background-color: #7FDBFF;
+    display: flex;
+    overflow: hidden;
 }
 
-nav> a{
-    display: block;
-    float: right;
-    list-style: none;
-    padding: 1rem;
+footer {
+    background-color: #7FDBFF;
+    height: 3rem;
+    margin-top: 2rem;
 }
+
+/********** Navbar Styles **********/
+
+.container {
+    display: flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    padding: 1.25rem;
+    text-decoration: none;
+}
+
+.title {
+    margin: 1.25rem;
+}
+
+/********** Home Container Styles **********/
+.home-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Should have at least 1 media query */
 
 /* Should utilize css flexbox at least once */
