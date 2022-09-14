@@ -15,6 +15,13 @@ header {
     width: 100%;
 }
 
+#header-img {
+    margin: auto 0;
+    padding: 0 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+
 footer {
     background-color: #7FDBFF;
     height: 3rem;
@@ -52,20 +59,29 @@ nav {
     padding: 0 1.5rem;
 }
 
+.desc-header {
+    margin-bottom: .5rem;
+}
+
 .home-container {
     display: flex;
     flex-direction: column;
+}
+
+.home-icons {
+    color: #006783;
+    margin: auto;
+    padding: 0 1rem;
+    width: 3rem;
 }
 
 .items {
     display: flex;
     margin: 1rem 1.25rem;}
 
-i {
-    color: #006783;
-    margin: auto;
-    padding: 0 1rem;
-    width: 3rem;
+.p-desc {
+    font-size: 1.1rem;
+    margin-top: 0;
 }
 
 /********** About Container Styles **********/
